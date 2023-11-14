@@ -1,0 +1,12 @@
+<div id="users" class="uk-child-width-1-4@m" uk-grid>
+  {{#each users}}
+    <div>
+      <div class="uk-card uk-card-default">
+        <div class="uk-card-body">
+          <h3 class="uk-card-title">{{ this.name }}</h3>
+          <p>{{this.email}}</p>
+        </div>
+      </div>
+    </div>
+  {{/each}}
+</div>

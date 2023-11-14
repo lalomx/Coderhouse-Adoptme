@@ -1,0 +1,12 @@
+<div id="pets" class="uk-child-width-1-4@m" uk-grid>
+  {{#each pets}}
+    <div>
+      <div class="uk-card uk-card-default">
+        <div class="uk-card-body">
+          <h3 class="uk-card-title">{{ this.specie }}</h3>
+          <p>{{this.name}}</p>
+        </div>
+      </div>
+    </div>
+  {{/each}}
+</div>
